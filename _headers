@@ -1,0 +1,5 @@
+/app.js
+  Content-Type: application/javascript
+  Content-Encoding: br
+  Cache-Control: public, max-age=604800, immutable
+  Vary: Accept-Encoding
