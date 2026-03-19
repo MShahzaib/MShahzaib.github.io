@@ -3,3 +3,4 @@
   Content-Encoding: br
   Cache-Control: public, max-age=604800, immutable
   Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
