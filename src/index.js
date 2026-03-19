@@ -11,6 +11,7 @@ export default {
       headers.set("Cache-Control", "public, max-age=604800, immutable");
       headers.set("Vary", "Accept-Encoding");
       headers.set("Access-Control-Allow-Origin", "*");
+      headers.set("X-Debug-Worker", "yes");
 
       return new Response(asset.body, {
         status: asset.status,
